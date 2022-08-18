@@ -1,0 +1,11 @@
+var dist 0
+setdo dist getDistToPoint;0;0
+if < dist 250
+if < stamina 50
+set health 10
+else
+set health 50
+endif
+else
+set health 150
+endif
